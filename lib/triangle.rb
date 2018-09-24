@@ -59,6 +59,7 @@ class Triangle
       return :scalene
     else
         raise TriangleError
+        #=> use rescue method when you want to break out of the particular loop
     end
   end
   
